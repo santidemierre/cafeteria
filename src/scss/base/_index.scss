@@ -1,0 +1,9 @@
+// Sirve para incluir archivos dentro de otros. Nada más los va a INCRUIR. Sirve como indice
+@forward 'normalize'; 
+@forward 'variables';
+@forward 'mixins';
+@forward 'globales';
+@forward 'tipografia';
+
+
+// @use - @import - Los incluye pero tambien UTILICEN el contenido. Se usa usualmente en app.scss

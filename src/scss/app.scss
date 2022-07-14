@@ -1,0 +1,11 @@
+// ¿Cómo funciona? 
+// Va a las carpetas correspondientes y busca el index.scss y desde ahi busca el @forward
+
+@use 'base'; 
+@use 'header';
+@use 'footer';
+@use 'inicio';
+@use 'internas';
+
+/* Siempre poner las utilidades al final */
+@use 'utilidades';
